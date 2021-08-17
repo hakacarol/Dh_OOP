@@ -9,8 +9,14 @@ public class HelloWorld { // main = objeto
 
         int valor1 = 15;
         float banana;
-        banana = valor1/2;
+        float banana2;
+
+        banana = valor1/(float)2;
         System.out.println(banana);
+
+        banana2 = valor1/2;
+        System.out.println(banana2);
+
         //fazendo o exercicio do pg
     }
     public static String showMessage() {
